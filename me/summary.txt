@@ -1,0 +1,80 @@
+Kartikey
+Bhasin
+- B.Tech CSE Student specializing In Big Data 
+
+Hey, I'm just someone who loves to code, listen to music, and watch movies. Drawing and designing stuff is also my jam. Coding is like solving puzzles for me. When I'm not doing that, I'm probably chilling with some good tunes or checking out the latest movies. Drawing lets me express myself, and I'm always doodling something fun. So yeah, that's me - into tech, music, movies, and drawing. Currently Studying in UPES, if you ever wanna talk about any of that stuff, just give me a shout! Take care.
+
+I love to debug and find out what is not working and why, I love to fix these little or major things, it makes me feel accomplished.
+
+I'm a logical, no-BS developer who codes like I talk: fast, clear, and focused on making things that work.
+Coding: Prefer practical examples, and building real tools over solving abstract leetcode puzzles.
+
+Syntax: I may forget exact syntax, but I know what I want the code to do—and I can direct AI or lookup documentation to fix it.
+
+Workflow: Push code to GitHub, deploy with Vercel, test manually. I’m familiar with CLI, VSCode, and Flask-based projects.
+
+
+My Experience
+
+Hackathon
+On March 16th and 17th, 2024, I had the incredible opportunity to participate in the CSI Hackathon 8.0. Alongside my talented team the "Fantastic Four," we embarked on a journey to create something innovative and impactful. Our project, "Personalized Itinerary Planning," aimed to revolutionize the way people plan their travels, offering tailor-made itineraries to suit individual preferences. As a team, we divided our responsibilities, and I delved into the frontend development and website design aspects of our project. The 30-hour hackathon tested our skills, teamwork, and creativity. In the initial round, we pitched our concept to the judges, showcasing our vision and strategy. Advancing to the next round, we presented our first draft of the frontend website, receiving positive feedback and encouragement. Despite the challenges and time constraints, we persevered and delved into refining our project further, particularly focusing on the database implementation. While we were unable to progress beyond the third round, the journey itself was immensely rewarding, filled with learning experiences and camaraderie. On March 16th and 17th, 2024, I had the incredible opportunity to participate in the CSI Hackathon 8.0. Alongside my talented team the "Fantastic Four," we embarked on a journey to create something innovative and impactful.
+
+
+
+
+XeFest
+Thrilled to share that my team "Yeezus" emerged victorious at the Data Storm event hosted by Xebia! 🏆🌩️ Working with a massive dataset of 10 lakh entries in Excel, we tackled the challenge head-on, employing meticulous cleaning and normalization techniques to transform the data into actionable insights. Our dedication and collaborative efforts paid off as we crafted compelling visualizations that unveiled valuable patterns and trends. Winning this competition not only underscores our proficiency in data wrangling and analysis but also highlights our team's synergy and problem-solving prowess. Grateful for the opportunity to showcase our skills and looking forward to leveraging this experience for future endeavors. #DataStormChampions #TeamYeezus #DataAnalytics #Xebia
+
+
+
+
+
+My Skills
+
+I possess a diverse range of programming skills, including proficiency in HTML/CSS, JavaScript, Java, Python, and Scala. With experience across multiple languages and technologies, I am adept at building web applications, crafting responsive user interfaces, and implementing robust backend systems. Whether it's front-end development with HTML/CSS and JavaScript or backend development with Java, Python, and Scala, I bring a versatile skill set to any project, ensuring efficient and effective solutions from conception to deployment.
+My Projects
+
+Personal Portfolio Website | HTML5, CSS, JavaScript April 2024 – April 2024
+• This is my project that I made in 4th semester for my ”Web Technologies” subject. I made a portfolio website that showcases my skills, projects and contact information.
+• I used different css tools like, flexbox, grid, animations etc to enhance the beauty of this project.
+• AngularJS for form validation because it was mandatory to use it as per my project guidelines.
+
+Movie Ticket Booking System | Java, MySQL, VSCODE Oct. 2023 – Nov. 2023
+• Developed a local menu driven Movie Ticket booking system where you can create a hostel as an owner and book a room as a customer
+• All the data will be stored in backend (RDBMS) with MySQL
+
+Movie Ticket Booking System with Python and MongoDB | Python, MongoDB March 2024 – April 2024
+• Developed a local menu Movie Ticket booking system where you can create, read, update, delete a hostel.
+• You can book a room and filter hostels based on different conditions.
+
+Sentiment Analysis System for College Feedback | March 2024 – April 2024
+• Data Collection: Built a website to collect feedback, storing data in Excel format.
+• Preprocessing: Implemented stop word removal and lemmatization for noise reduction.
+• Sentiment Analysis: Leveraged CoreNLP for sentiment classification and enhanced accuracy using a custom list of positive and negative words.
+• Visualization: Designed an interactive website for visualizing analysis results using graphical summaries.
+• Backend: Developed a RESTful API using Node.js and Express.js with MongoDB for efficient data handling.
+• Statistical Evaluation: Applied statistical formulas to estimate proportions in feedback trends. enabling colleges to derive actionable insights, improving decision-making through accurate and scalable feedback analysis.
+
+
+I am also currenly an intern in SAMODREI LLC and currently working on AI agents and orchestrating tools like langchain, langgraph, crewai etc
+One of the project i made using this was a text translation application that can translate one text to multiple languages with respect to the original context using Agents to translate,validate with respect to context and refine using gemini api.
+The project also had me translating Blogs,image,social media links so i also got hand on experience on Vision, website scraping, data extraction, image manuplation, social media data fetching and many more
+
+Another project i worked in was a facebook performance analyzer that fetches the real time matrcies of a page, displays that in a dashboard with analysis and AI analysis for better growth of thhe company, getting me some experience on dashboard, data retrival
+graph api call and fetching insights from facebook, Instagram etc.
+
+I also made this very coooooooool AI chatbot for my portfolio that takes care of general queries for me and records the questions it doesnt know the answer of so i can put that in the data later and improve the accuracy of this chatbot. webpage link is kartikeybhasin.vercel.app
+
+
+Tools & APIs I Use
+
+    OpenAI GPT (chat and image generation)
+
+    Google Vision API (OCR)
+
+    Google Translate API
+
+    Gradio (for UI demoing)
+
+    Cursor IDE (explored API key integration)
+
