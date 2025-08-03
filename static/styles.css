@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+::selection {
+  color: black;
+  background-color: #bea060;
+}
+section {
+  width: 100%;
+  min-height: 100vh; /* Adjusted height for responsiveness */
+  background-color: black;
+  /* display: flex; */
+}
+.skills-section{
+  margin-top: -200px;
+}
+.header-left-side .hack{
+  display: flex;
+  margin-top: -180px;
+  justify-content: flex-end;
+}
+
+.spiderman{
+  position: absolute;
+  right: -1300px;
+  top: -1840px;
+  transform: scale(0.08);
+  /* padding: -10px; */
+}
+
+.header-left-side {
+  padding: 0 20px; /* Adjusted padding for smaller screens */
+  color: white;
+  /* flex: 1; */
+  /* display: flex;
+  flex-direction: column; */
+}
+.header-left-side h1 {
+  color: #bea060;
+  line-height: 1.2em;
+  font-size: 48px; /* Adjusted font size for smaller screens */
+  padding-top: 20px;
+  margin-bottom: 20px;
+  overflow-y: hidden;
+}
+
+.header-left-side .skills-text{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.header-left-side h2 {
+  color: #bea060;
+  font-family: "Inter", sans-serif;
+  font-size: 20px; /* Adjusted font size for smaller screens */
+  line-height: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+.header-left-side p {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px;
+  font-size: 16px; /* Adjusted font size for smaller screens */
+  color: #c1bfbf;
+  line-height: 2;
+}
+button {
+  padding: 15px 20px; /* Adjusted padding for smaller screens */
+  border: 2px solid #bea060;
+  background: transparent;
+  width: 47%;
+  color: white;
+  margin-right: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px; /* Adjusted font size for smaller screens */
+  text-transform: uppercase;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #bea060;
+  transition: 0.7s;
+}
+.btn {
+  width: 97%;
+  background-color: #bea060;
+}
+.header-left-side h3 {
+  color: #c1bfbf;
+  padding-top: 80px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+.header-right-side img {
+  max-width: 100%; /* Ensure image does not exceed container width */
+  height: auto;
+  margin-top: 15%; /* Adjusted margin for smaller screens */
+}
+
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .mario{
+    display: none;
+  }
+  .context{
+    color: black;
+  }
+
+  .header-left-side {
+    padding: 0 10px; /* Further adjusted padding for smaller screens */
+  }
+  .header-left-side h1 {
+    font-size: 36px; /* Further adjusted font size for smaller screens */
+  }
+  .header-left-side h2 {
+    font-size: 18px; /* Further adjusted font size for smaller screens */
+  }
+  .header-left-side p {
+    font-size: 14px; /* Further adjusted font size for smaller screens */
+  }
+  button {
+    padding: 10px 15px; /* Further adjusted padding for smaller screens */
+    font-size: 16px; /* Further adjusted font size for smaller screens */
+  }
+}
+
+
+
+/* Navbar styles */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensures the navbar is above other content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #bea060;
+}
+
+.navbar li a:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background on hover */
+}
+
+/* Anchor links target styles */
+.skills-section,
+.experience-section {
+  scroll-margin-top: 80px; /* Adjust as needed depending on navbar height */
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
