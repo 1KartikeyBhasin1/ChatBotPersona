@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  
+    <title>Personal Portfolio Using HTML & CSS</title>
+    <link rel="stylesheet" href="static/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body ng-controller="myCtrl">
+    <nav class="navbar">
+        <ul>
+            <li><a href="#experience">My Experience</a></li>
+
+            <li><a href="#skills">My Skills</a></li>
+            <li><a href="#projects">My Projects</a></li>
+
+        </ul>
+    </nav>
+    <audio autoplay loop id="marioAudio">
+        <source src="static/WhatsApp Audio 2024-04-17 at 19.50.42_4f40787d.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <img class=spiderman src="static/spiderman.gif" alt="">
+    <div class="header-left-side">
+        <h1 class="hero-name">
+            <br>
+            Kartikey <br />
+            Bhasin
+        </h1>
+        <h2>- B.Tech CSE Student</h2>
+        <div class="context">
+            <p>
+                Hey,
+            
+                I'm just someone who loves to code, listen to <a href="https://open.spotify.com/user/63kc63zz2gt4jf51akkl7ehem?si=02c6c1a446ca406a" target="_blank" class="music-link">music</a>, and watch movies. Drawing and designing stuff is also my jam. Coding is like solving puzzles for me. When I'm not doing that, I'm probably chilling with some good tunes or checking out the latest movies. Drawing lets me express myself, and I'm always doodling something fun.
+            
+                So yeah, that's me - into tech, music, movies, and drawing. Currently Studying in UPES, if you ever wanna talk about any of that stuff, just give me a shout!
+            
+                Take care.
+            </p>
+            
+    </div>
+
+        <div class="mario-run-container">
+            <img class="mario" src="static/bg.gif" alt="Mario running" />
+        </div>
+        <div class="button-container">
+            <button ng-click="openLink('https://www.linkedin.com/in/kartikey-bhasin-7558b6255')">Linkedin</button>
+            <button ng-click="openLink('https://www.instagram.com/_.carti_kay._/')">Instagram</button>
+            <br />
+            <br>
+            <button ng-click="openLink('assets/resume.pdf')" download="Kartikey_Bhasin_Resume">Download Resume</button>
+            <!-- <button ng-click="openForm()">Shoot me a message</button> -->
+            <button ng-click="openLink('https://github.com/1KartikeyBhasin1')">Github</button>
+            <br />
+            <br>
+        </div>
+        <!-- New "Download Resume" Button with Same Styling as LinkedIn -->
+
+
+
+    </div>
+    
+    <div class="header-right-side">
+        
+    </div>
+</section>
+<section id="experience">
+    <div class="header-left-side">
+        <h1>
+            My Experience <br />
+            
+        </h1>
+        <div class="context">
+        <p>
+            <h1 class="hack">Hackathon</h1>
+            On March 16th and 17th, 2024, I had the incredible opportunity to participate in the CSI Hackathon 8.0. Alongside my talented team the "Fantastic Four," we embarked on a journey to create something innovative and impactful.
+
+            Our project, "Personalized Itinerary Planning," aimed to revolutionize the way people plan their travels, offering tailor-made itineraries to suit individual preferences. As a team, we divided our responsibilities, and I delved into the frontend development and website design aspects of our project.
+            
+            The 30-hour hackathon tested our skills, teamwork, and creativity. In the initial round, we pitched our concept to the judges, showcasing our vision and strategy. Advancing to the next round, we presented our first draft of the frontend website, receiving positive feedback and encouragement.
+            
+            Despite the challenges and time constraints, we persevered and delved into refining our project further, particularly focusing on the database implementation. While we were unable to progress beyond the third round, the journey itself was immensely rewarding, filled with learning experiences and camaraderie.
+            On March 16th and 17th, 2024, I had the incredible opportunity to participate in the CSI Hackathon 8.0. Alongside my talented team the "Fantastic Four," we embarked on a journey to create something innovative and impactful.
+            <br><br><br><br><br>
+            <h1>XeFest</h1>
+            Thrilled to share that my team "Yeezus" emerged victorious at the Data Storm event hosted by Xebia! 🏆🌩️ Working with a massive dataset of 10 lakh entries in Excel, we tackled the challenge head-on, employing meticulous cleaning and normalization techniques to transform the data into actionable insights. Our dedication and collaborative efforts paid off as we crafted compelling visualizations that unveiled valuable patterns and trends. Winning this competition not only underscores our proficiency in data wrangling and analysis but also highlights our team's synergy and problem-solving prowess. Grateful for the opportunity to showcase our skills and looking forward to leveraging this experience for future endeavors. #DataStormChampions #TeamYeezus #DataAnalytics #Xebia
+            <br><br><br><br><br><br>
+        </p>
+    </div>
+</section>
+<section class="skills-section" id="skills">
+    <div class="header-left-side" >
+        <h1 class="skills-text">
+            My Skills
+        </h1>
+        <p>I possess a diverse range of programming skills, including proficiency in HTML/CSS, JavaScript, Java, Python, and Scala. With experience across multiple languages and technologies, I am adept at building web applications, crafting responsive user interfaces, and implementing robust backend systems. Whether it's front-end development with HTML/CSS and JavaScript or backend development with Java, Python, and Scala, I bring a versatile skill set to any project, ensuring efficient and effective solutions from conception to deployment.
+        </p>
+    </div>
+</section>
+<section class="Projects_sec" id="projects">
+    <div class="header-left-side" >
+        <h1 class="Proj-text">
+            My Projects
+        </h1>
+        <p>Personal Portfolio Website | HTML5, CSS, JavaScript April 2024 – April 2024 <br>
+            • This is my project that I made in 4th semester for my "Web Technologies" subject. I made a portfolio website that
+            showcases my skills, projects and contact information. <br>
+            • I used different css tools like, flexbox, grid, animations etc to enhance the beauty of this project. <br>
+            • AngularJS for form validation because it was mandatory to use it as per my project guidelines.
+        </p>
+        <p>Movie Ticket Booking System | Java, MySQL, VSCODE Oct. 2023 – Nov. 2023 <br>
+            • Developed a local menu driven hostel booking system where you can create a hostel as an owner and book a room
+            as a customer <br>
+            • All the data will be stored in backend (RDBMS) with MySQL</p>
+            <p>Movie Ticket Booking System with Python and MongoDB | Python, MongoDB March 2024 – April 2024  <br>
+                • Developed a local menu driven hostel booking system where you can create, read, update, delete a hostel. <br>
+                • You can book a room and filter hostels based on different conditions.</p>
+                    <p>Sentiment Analysis System for College Feedback | March 2024 – April 2024 <br>
+                        • Data Collection: Built a website to collect feedback, storing data in Excel format. <br>
+                        • Preprocessing: Implemented stop word removal and lemmatization for noise reduction. <br>
+                        • Sentiment Analysis: Leveraged CoreNLP for sentiment classification and enhanced accuracy using a custom list of
+                        positive and negative words. <br>
+                        • Visualization: Designed an interactive website for visualizing analysis results using graphical summaries. <br>
+                        • Backend: Developed a RESTful API using Node.js and Express.js with MongoDB for efficient data handling. <br>
+                        • Statistical Evaluation: Applied statistical formulas to estimate proportions in feedback trends. enabling colleges to
+                        derive actionable insights, improving decision-making through accurate and scalable feedback analysis.</p>
+    </div>
+</section>
+
+<section></section>
+
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope, $window) {
+    $scope.openLink = function(url) {
+        $window.open(url, '_blank');
+    }
+
+    $scope.openForm = function() {
+        window.open('form.html', '_blank');
+    }
+});
+</script>
+<style>
+    .mario-run-container {
+        width: 100%;
+        height: 150px; /* Match Mario's height */
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+
+    .mario {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 180px;
+        height: 200px;
+        object-fit: contain;
+        animation: marioRun 6s linear infinite;
+    }
+
+    @keyframes marioRun {
+        0% {
+            left: -120px; /* Start off-screen */
+        }
+        100% {
+            left: 100%; /* End off right edge */
+        }
+    }
+    .button-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+    body {
+        background: #000000; /* Dark background color */
+        color: #fff;         /* White text for contrast */
+    }
+    #chatbot-toggle {
+        position: fixed;
+        bottom: 32px;
+        right: 62px;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background: #222;
+        color: #fff;
+        
+        border: none;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        z-index: 1000;
+        transition: background 0.2s, transform 0.2s;
+    }
+    #chatbot-toggle:hover {
+        background: #444;
+        transform: scale(1.08) rotate(20deg);
+    }
+    /* Override global button styles for chatbot button */
+    #chatbot-toggle {
+        width: 64px !important;
+        height: 64px !important;
+        min-width: 0 !important;
+        min-height: 0 !important;
+        max-width: none !important;
+        max-height: none !important;
+        border: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        background: #222 !important;
+        color: #fff !important;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 32px;
+        right: 62px;
+        z-index: 1000;
+        cursor: pointer;
+        transition: background 0.2s, transform 0.2s;
+        overflow-x: visible !important;
+        overflow-y: visible !important;
+    }
+    /* Make chatbox body scrollable with fixed height */
+.modern-chatbox-body {
+  height: 420px; /* Set a fixed height for the scrollable area */
+  max-height: 100%;
+  overflow-y: auto;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: transparent;
+  scroll-behavior: smooth;
+}
+
+/* Message bubbles stay same size, don't shrink or grow */
+.modern-chatbox-message-user,
+.modern-chatbox-message-bot {
+  flex: 0 0 auto; /* Prevent shrinking/growing */
+  max-width: 85%;
+  word-wrap: break-word;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+</style>
+<script>
+    // JavaScript to play audio when hovering over the "music" link
+    const musicLink = document.querySelector('.music-link');
+    const marioAudio = document.getElementById('marioAudio');
+
+    musicLink.addEventListener('mouseenter', function() {
+        marioAudio.play();
+    });
+
+    musicLink.addEventListener('mouseleave', function() {
+        marioAudio.pause();
+        marioAudio.currentTime = 0;
+    });
+</script>
+<!-- Fixed Chatbot Button -->
+<button id="chatbot-toggle" title="Chat with me!">
+    <span style="font-size: 2rem;">💬</span>
+</button>
+
+<!-- Enhanced Modern Chatbox -->
+<div id="modern-chatbox" style="display: none;">
+  <div class="modern-chatbox-header">
+    <div class="header-content">
+      <div class="online-indicator"></div>
+      <span>Chat with Kartikey</span>
+    </div>
+    <button id="modern-chatbox-close">&times;</button>
+  </div>
+  <div class="modern-chatbox-body" id="modern-chatbox-body">
+    <div class="welcome-message">
+      <div class="modern-chatbox-message-bot">
+        👋 Hey there! I'm Kartikey's AI assistant. Feel free to ask me anything about his experience, skills, or projects!
+      </div>
+    </div>
+  </div>
+  <div class="typing-indicator" id="typing-indicator" style="display: none;">
+    <div class="typing-dots">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <span class="typing-text">Kartikey is typing...</span>
+  </div>
+  <div class="modern-chatbox-input-row">
+    <input type="text" id="modern-chatbox-input" placeholder="Ask me anything..." maxlength="500" />
+    <button id="modern-chatbox-send">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+        <path d="M2 21L23 12L2 3V10L17 12L2 14V21Z" fill="currentColor"/>
+      </svg>
+    </button>
+  </div>
+</div>
+
+<style>
+  #modern-chatbox {
+    position: fixed;
+    bottom: 120px;
+    right: 32px;
+    width: 420px;
+    height: 600px;
+    background: linear-gradient(145deg, #1a1d23, #23272f);
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.1);
+    z-index: 1100;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    backdrop-filter: blur(20px);
+    animation: chatboxSlideIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  @keyframes chatboxSlideIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px) scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  .modern-chatbox-header {
+    background: linear-gradient(135deg, #2c313a, #343a46);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+  }
+
+  .header-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .online-indicator {
+    width: 12px;
+    height: 12px;
+    background: #4ade80;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+    box-shadow: 0 0 10px rgba(74, 222, 128, 0.5);
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+  }
+
+  .header-content span {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #ffffff;
+  }
+
+  #modern-chatbox-close {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    color: #bea060;
+    font-size: 1.8rem;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #modern-chatbox-close:hover {
+    background: rgba(255,255,255,0.2);
+    color: #fff2c7;
+    transform: scale(1.1);
+  }
+
+  .modern-chatbox-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: transparent;
+    scroll-behavior: smooth;
+    height: 420px; /* Set a fixed height for the scrollable area */
+    max-height: 100%;
+  }
+
+  /* Custom scrollbar */
+  .modern-chatbox-body::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .modern-chatbox-body::-webkit-scrollbar-track {
+    background: rgba(255,255,255,0.05);
+    border-radius: 3px;
+  }
+
+  .modern-chatbox-body::-webkit-scrollbar-thumb {
+    background: rgba(190, 160, 96, 0.4);
+    border-radius: 3px;
+  }
+
+  .modern-chatbox-body::-webkit-scrollbar-thumb:hover {
+    background: rgba(190, 160, 96, 0.6);
+  }
+
+  .welcome-message {
+    margin-bottom: 8px;
+  }
+
+  .typing-indicator {
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(255,255,255,0.02);
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }
+
+  .typing-dots {
+    display: flex;
+    gap: 4px;
+  }
+
+  .typing-dots span {
+    width: 8px;
+    height: 8px;
+    background: #bea060;
+    border-radius: 50%;
+    animation: typingDots 1.4s infinite both;
+  }
+
+  .typing-dots span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  .typing-dots span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+
+  @keyframes typingDots {
+    0%, 60%, 100% {
+      transform: translateY(0);
+      opacity: 0.4;
+    }
+    30% {
+      transform: translateY(-10px);
+      opacity: 1;
+    }
+  }
+
+  .typing-text {
+    font-size: 0.9rem;
+    color: #999;
+    font-style: italic;
+  }
+
+  .modern-chatbox-input-row {
+    display: flex;
+    gap: 12px;
+    padding: 20px;
+    background: rgba(255,255,255,0.02);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+  }
+
+  #modern-chatbox-input {
+    flex: 1;
+    padding: 14px 18px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.05);
+    color: #fff;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: all 0.2s ease;
+    resize: none;
+    outline: none;
+  }
+
+  #modern-chatbox-input:focus {
+    border-color: #bea060;
+    background: rgba(255,255,255,0.08);
+    box-shadow: 0 0 0 3px rgba(190, 160, 96, 0.1);
+  }
+
+  #modern-chatbox-input::placeholder {
+    color: rgba(255,255,255,0.4);
+  }
+
+  #modern-chatbox-send {
+    background: linear-gradient(135deg, #bea060, #d4b574);
+    color: #1a1d23;
+    border: none;
+    border-radius: 12px;
+    padding: 14px 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 52px;
+  }
+
+  #modern-chatbox-send:hover:not(:disabled) {
+    background: linear-gradient(135deg, #d4b574, #e8c988);
+    transform: translateY(-1px);
+    box-shadow: 0 8px 25px rgba(190, 160, 96, 0.3);
+  }
+
+  #modern-chatbox-send:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .modern-chatbox-message-user {
+    align-self: flex-end;
+    background: linear-gradient(135deg, #bea060, #d4b574);
+    color: #1a1d23;
+    padding: 12px 18px;
+    border-radius: 20px 20px 6px 20px;
+    max-width: 85%;
+    word-wrap: break-word;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(190, 160, 96, 0.2);
+    animation: messageSlideIn 0.3s ease-out;
+  }
+
+  .modern-chatbox-message-bot {
+    align-self: flex-start;
+    background: rgba(255,255,255,0.08);
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 20px 20px 20px 6px;
+    max-width: 85%;
+    word-wrap: break-word;
+    border: 1px solid rgba(255,255,255,0.1);
+    font-size: 1rem;
+    line-height: 1.4;
+    backdrop-filter: blur(10px);
+    animation: messageSlideIn 0.3s ease-out;
+  }
+
+  @keyframes messageSlideIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Responsive design */
+  @media (max-width: 768px) {
+    #modern-chatbox {
+      width: calc(100vw - 32px);
+      height: calc(100vh - 160px);
+      right: 16px;
+      bottom: 100px;
+    }
+  }
+
+  /* Message timestamp */
+  .message-timestamp {
+    font-size: 0.75rem;
+    color: rgba(255,255,255,0.4);
+    margin-top: 4px;
+    text-align: right;
+  }
+
+  .modern-chatbox-message-user .message-timestamp {
+    color: rgba(26, 29, 35, 0.6);
+  }
+</style>
+
+<script>
+// Enhanced Modern Chatbox Logic
+const chatbotToggle = document.getElementById('chatbot-toggle');
+const modernChatbox = document.getElementById('modern-chatbox');
+const modernChatboxClose = document.getElementById('modern-chatbox-close');
+const modernChatboxBody = document.getElementById('modern-chatbox-body');
+const modernChatboxInput = document.getElementById('modern-chatbox-input');
+const modernChatboxSend = document.getElementById('modern-chatbox-send');
+const typingIndicator = document.getElementById('typing-indicator');
+
+let isOpen = false;
+let messageHistory = [];
+
+// Toggle chatbox
+chatbotToggle.addEventListener('click', () => {
+  isOpen = !isOpen;
+  modernChatbox.style.display = isOpen ? 'flex' : 'none';
+  
+  if (isOpen) {
+    modernChatboxInput.focus();
+    // Auto-scroll to latest message
+    setTimeout(() => {
+      modernChatboxBody.scrollTop = modernChatboxBody.scrollHeight;
+    }, 100);
+  }
+});
+
+modernChatboxClose.addEventListener('click', () => {
+  isOpen = false;
+  modernChatbox.style.display = 'none';
+});
+
+// Enhanced message creation with timestamp
+function appendModernMessage(text, sender, showTimestamp = true) {
+  const msgDiv = document.createElement('div');
+  msgDiv.className = sender === 'user' ? 'modern-chatbox-message-user' : 'modern-chatbox-message-bot';
+  
+  const textNode = document.createElement('div');
+  textNode.textContent = text;
+  msgDiv.appendChild(textNode);
+  
+  if (showTimestamp) {
+    const timestamp = document.createElement('div');
+    timestamp.className = 'message-timestamp';
+    timestamp.textContent = new Date().toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+    msgDiv.appendChild(timestamp);
+  }
+  
+  modernChatboxBody.appendChild(msgDiv);
+  
+  // Smooth auto-scroll to latest message
+  setTimeout(() => {
+    modernChatboxBody.scrollTo({
+      top: modernChatboxBody.scrollHeight,
+      behavior: 'smooth'
+    });
+  }, 50);
+  
+  // Store in history
+  messageHistory.push({
+    text: text,
+    sender: sender,
+    timestamp: new Date().toISOString()
+  });
+}
+
+// Show typing indicator
+function showTypingIndicator() {
+  typingIndicator.style.display = 'flex';
+  setTimeout(() => {
+    modernChatboxBody.scrollTo({
+      top: modernChatboxBody.scrollHeight,
+      behavior: 'smooth'
+    });
+  }, 50);
+}
+
+// Hide typing indicator
+function hideTypingIndicator() {
+  typingIndicator.style.display = 'none';
+}
+
+// Enhanced send message function
+function sendModernMessage() {
+  const text = modernChatboxInput.value.trim();
+  if (!text) return;
+  
+  // Disable send button and input
+  modernChatboxSend.disabled = true;
+  modernChatboxInput.disabled = true;
+  
+  appendModernMessage(text, 'user');
+  modernChatboxInput.value = '';
+  
+  // Show typing indicator
+  showTypingIndicator();
+  
+  // Simulate network delay for better UX
+  setTimeout(() => {
+    // Send to backend API
+    fetch('http://localhost:5000/chat', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        message: text,
+        history: messageHistory.slice(-10) // Send last 10 messages for context
+      })
+    })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.json();
+    })
+    .then(data => {
+      hideTypingIndicator();
+      appendModernMessage(data.reply || 'Sorry, I couldn\'t process that request.', 'bot');
+    })
+    .catch(error => {
+      hideTypingIndicator();
+      console.error('Chat API Error:', error);
+      
+      // Provide a more helpful fallback response
+      const fallbackResponses = [
+        "I'm currently having trouble connecting to my backend. But I can tell you that Kartikey is a passionate B.Tech CSE student at UPES with experience in web development, data analysis, and multiple programming languages!",
+        "The chat service seems to be offline, but feel free to check out Kartikey's projects and experience above! He's worked on everything from sentiment analysis systems to hackathon projects.",
+        "I'm experiencing some technical difficulties right now. In the meantime, you can connect with Kartikey through his LinkedIn or GitHub links above!"
+      ];
+      
+      const randomResponse = fallbackResponses[Math.floor(Math.random() * fallbackResponses.length)];
+      appendModernMessage(randomResponse, 'bot');
+    })
+    .finally(() => {
+      // Re-enable send button and input
+      modernChatboxSend.disabled = false;
+      modernChatboxInput.disabled = false;
+      modernChatboxInput.focus();
+    });
+  }, 800); // Simulate thinking time
+}
+
+// Event listeners
+modernChatboxSend.addEventListener('click', sendModernMessage);
+
+modernChatboxInput.addEventListener('keydown', function(e) {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    sendModernMessage();
+  }
+});
+
+// Auto-resize input and improve UX
+modernChatboxInput.addEventListener('input', function() {
+  // Enable/disable send button based on input
+  modernChatboxSend.disabled = !this.value.trim();
+});
+
+// Close chatbox when clicking outside (optional)
+document.addEventListener('click', function(e) {
+  if (isOpen && !modernChatbox.contains(e.target) && e.target !== chatbotToggle) {
+    // Uncomment the lines below if you want to close on outside click
+    // isOpen = false;
+    // modernChatbox.style.display = 'none';
+  }
+});
+
+// Initialize send button state
+modernChatboxSend.disabled = true;
+</script>
+</body>
+</html>
